@@ -1,0 +1,12 @@
+// created folder structure 
+// updated package.json to add start and dev scripts and change entrance of app to server.js
+// created basic server with express
+// connecting to mongoDB 
+// connection done just connect to mongodb no need of creating collection first and add the db.js to config file and call it in server.js one issue arised that mongodb was connected 2 times bcoz i put 2 methods in server file 
+// built mongodb schemas for user and url stored in models folder
+//creating auth api for register user with bcrypt password hashing needs installation of bcryptjs issue creating api i didnt import router and was getting error in app.use router line in server file
+ // updated auth api for including login functionality with jwt token generation
+ // created auth middleware to protect routes need to export the middleware and import in route file
+// created url shortening route with auth middleware added to protect the route
+// created url redirection route in server file to handle redirection when short url is accessed
+// created get all url delete url and stats url apis and postman collection 
