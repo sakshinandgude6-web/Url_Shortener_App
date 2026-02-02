@@ -18,8 +18,8 @@ function App() {
               <Dashboard />
             </ProtectedRoute>
           }
-        <Route path="/" element={<Login />} />
         />
+        <Route path="/" element={<Login />} />
       </Routes>
     </BrowserRouter>
   );
