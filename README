@@ -1,4 +1,4 @@
-URL Shortener – Full Stack Web Application
+# URL Shortener – Full Stack Web Application
 
 A full-stack URL Shortener application built using React, Node.js, Express and MongoDB with JWT authentication, protected APIs, analytics and a user dashboard.
 
