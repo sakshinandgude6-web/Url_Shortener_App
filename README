@@ -1,10 +1,10 @@
-# URL Shortener – Full Stack Web Application
+# URL Shortener – Full Stack Web Application (Backend Focused)
 
-A full-stack URL Shortener application built using React, Node.js, Express and MongoDB with JWT authentication, protected APIs, analytics and a user dashboard.
-
+A full-stack URL Shortener application built using React, Node.js, RestFul API, Express and MongoDB with JWT authentication, protected APIs, analytics and a user dashboard.
 This project focuses on real-world backend architecture, secure API design, frontend integration and end-to-end testing.
 
------Features----
+
+## features 
 
 1. Authentication & Security
 2. User registration and login
@@ -13,7 +13,7 @@ This project focuses on real-world backend architecture, secure API design, fron
 5. Protected routes using middleware
 6. Ownership based access control
 
-----URL Management----
+## URL Management 
 
 Create short URLs
 Redirect short URLs to original URLs
@@ -22,14 +22,15 @@ Delete URLs
 View statistics for each URL
 Click tracking
 
-----Dashboard----
+## Dashboard
 
 Create and manage short links
 View clicks and statistics
 Secure access using protected routes
 Logout support
 
----System Architecture---
+## System Architecture
+
 React Frontend
 ↓
 REST API (Node.js + Express)
@@ -38,7 +39,8 @@ MongoDB (Mongoose)
 ↓
 Redirect Engine
 
------Tech Stack------
+## Tech Stack
+
 Frontend
 React
 React Router
@@ -52,13 +54,14 @@ MongoDB
 Mongoose
 JWT
 bcrypt
+RestAPI
 
 Tools
 Postman
 MongoDB Atlas
 Git & GitHub
 
------Backend Setup----
+## Backend Setup 
 
 1. Install dependencies
    cd backend
@@ -75,7 +78,7 @@ Git & GitHub
    or
    npm start
 
------Frontend Setup-----
+## Frontend Setup
 
 1. Install dependencies
    cd frontend-app
@@ -88,7 +91,7 @@ Git & GitHub
 3. Start backend
    npm start
 
------API Overview-----
+## API Overview 
 
 | Method | Endpoint           | Description                  |
 | ------ | ------------------ | ---------------------------- |
@@ -100,7 +103,7 @@ Git & GitHub
 | GET    | /api/url/:id/stats | URL statistics (protected)   |
 | GET    | /:shortCode        | Redirect to original URL     |
 
-------Testing-----
+## Testing
 
 API testing using Postman
 A complete Postman collection was created to test:
@@ -125,7 +128,7 @@ Deleted resource access
 Expired token access
 MongoDB Atlas UI was used to verify data consistency and click tracking.
 
-------Security Measures Implemented----
+## Security Measures
 
 JWT authentication with expiry
 Route protection using middleware
@@ -134,12 +137,11 @@ Password hashing using bcrypt
 Input validation
 URL scheme validation
 
-
-----Backend deployment using render-----
+## Backend Deployment in Render
 URL : https://url-shortener-app-wn12.onrender.com
 
 
------frontend deployment using vercel----
+## Frontend Deployment in Vercel 
 Deployment : https://vercel.com/sakshi-nandgudes-projects/url-shortener-app/EfBigBRnMVbzru99ygZDTjW5ZTC8
 Domains : https://url-shortener-app-blue.vercel.app/
 
