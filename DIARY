@@ -13,11 +13,19 @@
 //started with frontend
 // inside src created pages folder for login register and dashboard page
 //git issue resolved :
-You accidentally created a Git repository inside:
-frontend-app
-So Git treats it as:
-➡ a nested repository (submodule style)
-But for your project you want:
-➡ one single repo for backend + frontend
+//You accidentally created a Git repository inside:
+//frontend-app
+//So Git treats it as:
+//a nested repository (submodule style)
+//But for your project you want:
+//one single repo for backend + frontend
 //created login page in react checked the borwser devtools local storage to see if token is present there as user logs in token is sent as response and stored on the browser
 // created dashboard page
+// created stats and delete functionality in dashboard page
+// committed all changes to git had issue with untracked files though working tree was clean
+// some files were showing untracked
+//Your VS Code Git view is out of sync.
+//This happens sometimes after:
+//moving folders
+//deleting files
+//switching terminals
