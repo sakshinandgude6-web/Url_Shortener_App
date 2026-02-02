@@ -9,7 +9,6 @@ router.get("/my", authMiddleware, async (req, res) => {
   try {
     // Get user ID from auth middleware
     const userId = req.user.id;
-    console.log("REQ USER ID:", req.user.id);
 
     // Fetch URLs created by the user
     const urls = await Url.find({ userId })
