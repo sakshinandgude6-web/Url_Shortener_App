@@ -69,6 +69,16 @@ export default function Register() {
         <button type="submit">Register</button>
       </form>
 
+      <p>
+      Already have an account?{" "}
+      <span
+        style={{ color: "#2563eb", cursor: "pointer" }}
+        onClick={() => navigate("/login")}
+      >
+      Login here
+      </span>
+      </p>
+
       <p className="error">{error}</p>
     </div>
   );
