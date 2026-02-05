@@ -1,7 +1,5 @@
 # URL Shortener – Full Stack Web Application (Backend Focused)
 
-Project URL: https://roadmap.sh/projects/url-shortening-service
-
 A full-stack URL Shortener application built using React, Node.js, RestFul API, Express and MongoDB with JWT authentication, protected APIs, analytics and a user dashboard.
 This project focuses on real-world backend architecture, secure API design, frontend integration and end-to-end testing.
 
