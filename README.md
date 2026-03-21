@@ -1,3 +1,12 @@
+![Node.js](https://img.shields.io/badge/Node.js-18-339933?style=flat&logo=nodedotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
+![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-47A248?style=flat&logo=mongodb&logoColor=white)
+![Express](https://img.shields.io/badge/Express.js-000000?style=flat&logo=express&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-Auth-000000?style=flat&logo=jsonwebtokens&logoColor=white)
+![Vercel](https://img.shields.io/badge/Frontend-Vercel-000000?style=flat&logo=vercel&logoColor=white)
+![Render](https://img.shields.io/badge/Backend-Render-46E3B7?style=flat&logo=render&logoColor=black)
+![License](https://img.shields.io/badge/License-Apache%202.0-blue?style=flat)
+
 # URL Shortener – Full Stack Web Application (Backend Focused)
 
 A full-stack URL Shortener application built using React, Node.js, RestFul API, Express and MongoDB with JWT authentication, protected APIs, analytics and a user dashboard.
